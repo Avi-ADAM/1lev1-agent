@@ -1,0 +1,22 @@
+{
+  "name": "1lev1",
+  "owner": {
+    "name": "1lev1",
+    "email": "info@1lev1.com",
+    "url": "https://1lev1.com"
+  },
+  "metadata": {
+    "description": "Agent plugins for 1lev1 — the consent-based partnership platform.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "1lev1",
+      "source": "./plugins/1lev1",
+      "description": "Run your partnerships from your agent: missions, timers, votes and profit-splits on 1lev1.com.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "keywords": ["1lev1", "partnership", "equity", "time-tracking", "missions", "consensus", "mcp"]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "1lev1": {
+      "type": "http",
+      "url": "https://api.1lev1.com/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${LEV1_API_KEY}"
+      }
+    }
+  }
+}

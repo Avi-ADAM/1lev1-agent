@@ -1,0 +1,13 @@
+{
+  "name": "1lev1",
+  "version": "0.1.0",
+  "description": "Connect your agent to 1lev1.com — create partnerships (rikmot), track mission time, see what needs your consent, and turn repo work into shared equity.",
+  "author": {
+    "name": "1lev1",
+    "url": "https://1lev1.com"
+  },
+  "homepage": "https://1lev1.com",
+  "repository": "https://github.com/Avi-ADAM/1lev1-agent",
+  "license": "MIT",
+  "keywords": ["1lev1", "partnership", "equity", "time-tracking", "missions", "consensus", "mcp"]
+}
