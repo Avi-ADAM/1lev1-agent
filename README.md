@@ -5,8 +5,9 @@ Run your partnerships from the agent you already use.
 [1lev1](https://1lev1.com) is a platform for **consent-based partnerships**.
 People contribute work to a shared venture ("rikma"), the hours they log become
 their documented share of it, and income is split by agreements everyone signs.
-This repo publishes the 1lev1 plugin: an MCP connection plus a skill that teaches
-your agent how the platform actually works.
+This repo publishes the **skill**: the standing instructions that teach your agent
+what a rikma is, how consent works on the platform, and which of the ~20 MCP
+tools to reach for. The MCP server gives an agent hands; this gives it judgement.
 
 ## Install (Claude Code)
 
@@ -26,10 +27,22 @@ npx 1lev1-mcp
 
 Restart the client. That is it.
 
+### Why the connection is a separate step
+
+The plugin deliberately does **not** ship an MCP server entry. A bundled entry
+would need your API key from an environment variable, and it would sit alongside
+the one `npx 1lev1-mcp` writes — two servers, one of them broken, and an agent
+seeing every tool twice. So there is exactly one connection path: the CLI, which
+authenticates you in the browser and writes the key where your agent reads it.
+
+If you install the skill without connecting, nothing breaks: the skill's first
+instruction is to check, and to offer you the one-line fix.
+
 ## Other MCP clients
 
-Add the server to your client config and the skill folder to wherever your client
-reads skills from:
+`npx 1lev1-mcp` also configures Cursor, Windsurf, Cline, Roo Code, Continue,
+Antigravity, VS Code and Claude Desktop, and installs the skill where the client
+reads it. To wire it by hand instead:
 
 ```json
 {
