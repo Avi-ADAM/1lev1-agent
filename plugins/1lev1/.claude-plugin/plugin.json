@@ -1,13 +1,17 @@
 {
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "1lev1",
-  "version": "0.1.0",
+  "displayName": "1lev1",
+  "version": "0.1.1",
   "description": "Connect your agent to 1lev1.com — create partnerships (rikmot), track mission time, see what needs your consent, and turn repo work into shared equity.",
   "author": {
     "name": "1lev1",
+    "email": "info@1lev1.com",
     "url": "https://1lev1.com"
   },
   "homepage": "https://1lev1.com",
   "repository": "https://github.com/Avi-ADAM/1lev1-agent",
   "license": "MIT",
+  "category": "productivity",
   "keywords": ["1lev1", "partnership", "equity", "time-tracking", "missions", "consensus", "mcp"]
 }

@@ -1,22 +1,31 @@
 {
+  "$schema": "https://code.claude.com/schemas/marketplace.json",
   "name": "1lev1",
   "owner": {
     "name": "1lev1",
     "email": "info@1lev1.com",
     "url": "https://1lev1.com"
   },
-  "metadata": {
-    "description": "Agent plugins for 1lev1 — the consent-based partnership platform.",
-    "version": "0.1.0"
-  },
+  "description": "Agent plugins for 1lev1 — the consent-based partnership platform.",
+  "version": "0.1.1",
   "plugins": [
     {
       "name": "1lev1",
+      "displayName": "1lev1",
       "source": "./plugins/1lev1",
       "description": "Run your partnerships from your agent: missions, timers, votes and profit-splits on 1lev1.com.",
-      "version": "0.1.0",
+      "version": "0.1.1",
+      "author": {
+        "name": "1lev1",
+        "email": "info@1lev1.com",
+        "url": "https://1lev1.com"
+      },
+      "homepage": "https://1lev1.com",
+      "repository": "https://github.com/Avi-ADAM/1lev1-agent",
+      "license": "MIT",
       "category": "productivity",
-      "keywords": ["1lev1", "partnership", "equity", "time-tracking", "missions", "consensus", "mcp"]
+      "keywords": ["1lev1", "partnership", "equity", "time-tracking", "missions", "consensus", "mcp"],
+      "tags": ["claude-code", "agent-skills", "mcp"]
     }
   ]
 }
