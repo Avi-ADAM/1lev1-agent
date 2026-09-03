@@ -2,7 +2,7 @@
 
 Run your partnerships from the agent you already use.
 
-[1lev1](https://1lev1.com) is a platform for **consent-based partnerships**.
+[1lev1](https://www.1lev1.com) is a platform for **consent-based partnerships**.
 People contribute work to a shared venture ("rikma"), the hours they log become
 their documented share of it, and income is split by agreements everyone signs.
 This repo publishes the **skill**: the standing instructions that teach your agent
