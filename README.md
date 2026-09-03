@@ -78,7 +78,3 @@ plugin.
 
 The server answers `getPlatformInfo` and `howToConnect` unauthenticated, so you
 can ask your agent what 1lev1 is before signing up for anything.
-
-## License
-
-MIT
